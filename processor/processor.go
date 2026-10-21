@@ -2,13 +2,12 @@ package processor
 
 import (
 	"bufio"
+	"encoding/json"
 	"os"
 	"slices"
 	"strings"
 	"time"
 )
-
-var ValidSeverityLevels = []string{"INFO", "WARN", "ERROR", "FATAL"}
 
 type ProcessorResult struct {
 	TotalLines            int
@@ -17,22 +16,33 @@ type ProcessorResult struct {
 	EntryCountsBySeverity map[string]int
 	EntryCountsByService  map[string]int
 	Incidents             map[string][]Incident
+	ValidSeverityLevels   []string
 }
 
-func ProcessLogFile(filePath string) (ProcessorResult, error) {
+func ProcessLogFile(logFilePath string, incidentConfigFilePath string) (ProcessorResult, error) {
 	result := ProcessorResult{
 		EntryCountsBySeverity: make(map[string]int),
 		EntryCountsByService:  make(map[string]int),
 		Incidents:             make(map[string][]Incident),
 	}
 
-	f, err := os.Open(filePath)
+	// Opening the log file
+	f, err := os.Open(logFilePath)
 	if err != nil {
 		return result, err
 	}
 	defer f.Close()
 
-	incidentConfig := IncidentConfig{1, time.Minute, []int{1, 3, 2, 1}}
+	// Loading incident config from file
+	configData, configErr := os.ReadFile(incidentConfigFilePath)
+	if configErr != nil {
+		return result, configErr
+	}
+	incidentConfig := IncidentConfig{}
+	if err := json.Unmarshal(configData, &incidentConfig); err != nil {
+		return result, err
+	}
+	result.ValidSeverityLevels = incidentConfig.ValidSeverityLevels
 
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
@@ -47,7 +57,7 @@ func ProcessLogFile(filePath string) (ProcessorResult, error) {
 		}
 
 		severityText := tokens[1]
-		if !slices.Contains(ValidSeverityLevels, severityText) {
+		if !slices.Contains(incidentConfig.ValidSeverityLevels, severityText) {
 			result.MalformedLines++
 			continue
 		}
@@ -56,7 +66,7 @@ func ProcessLogFile(filePath string) (ProcessorResult, error) {
 
 		message := strings.Join(tokens[3:], " ")
 
-		entry := Entry{entryTime, slices.Index(ValidSeverityLevels, severityText), service, message, entryText}
+		entry := Entry{entryTime, slices.Index(incidentConfig.ValidSeverityLevels, severityText), service, message, entryText}
 		addToIncidents(incidentConfig, result.Incidents, entry)
 
 		result.ValidLines++

@@ -22,7 +22,7 @@ func main() {
 		log.Fatal("usage: app [-o report.json] [-s] [-t] <input file>")
 	}
 
-	result, err := processor.ProcessLogFile(logFilePath)
+	result, err := processor.ProcessLogFile(logFilePath, "incidentconfig.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -50,7 +50,7 @@ func main() {
 				fmt.Printf("\t\t\tCount: %d\n", len(incident.TimeWindows))
 				fmt.Printf("\t\t\tEntries:\n")
 				for _, entry := range incident.Entries {
-					fmt.Printf("\t\t\t\t%s\n", strings.Join([]string{processor.ValidSeverityLevels[entry.Severity], entry.Message}, " "))
+					fmt.Printf("\t\t\t\t%s\n", strings.Join([]string{result.ValidSeverityLevels[entry.Severity], entry.Message}, " "))
 				}
 				if !*t {
 					continue
@@ -64,7 +64,7 @@ func main() {
 	}
 
 	if *o != "" {
-		data, err := json.MarshalIndent(result, "", "  ")
+		data, err := json.MarshalIndent(result, "", "    ")
 		if err != nil {
 			log.Fatal(err)
 		}

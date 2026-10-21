@@ -1,6 +1,8 @@
 package processor
 
 import (
+	"encoding/json"
+	"fmt"
 	"slices"
 	"time"
 )
@@ -17,9 +19,38 @@ func (entry Entry) String() string {
 	return entry.Text
 }
 
+type Duration struct {
+	time.Duration
+}
+
+func (d Duration) MarshalJSON() ([]byte, error) {
+	return json.Marshal(d.String()) // "1m30s"
+}
+
+func (d *Duration) UnmarshalJSON(b []byte) error {
+	var v any
+	if err := json.Unmarshal(b, &v); err != nil {
+		return err
+	}
+	switch x := v.(type) {
+	case float64: // plain number: treat as nanoseconds
+		d.Duration = time.Duration(x)
+	case string: // "1m30s"
+		parsed, err := time.ParseDuration(x)
+		if err != nil {
+			return err
+		}
+		d.Duration = parsed
+	default:
+		return fmt.Errorf("invalid duration: %s", b)
+	}
+	return nil
+}
+
 type IncidentConfig struct {
-	MinSeverityLevel     int
-	Duration             time.Duration
+	ValidSeverityLevels  []string
+	MinSeverityLevel     int // This corresponds to the indeces of ValidSeverityLevels
+	Duration             Duration
 	MinEntriesBySeverity []int // The indeces represent severity levels and the values represent the minimum number of entries
 }
 
@@ -47,7 +78,7 @@ func addToIncidents(config IncidentConfig, incidents map[string][]Incident, entr
 
 	newIncident := true
 	for i, incident := range incidents[entry.Service] {
-		if !entry.Time.Before(incident.TimeWindows[0].Start.Add(-config.Duration)) && entry.Time.Before(incident.TimeWindows[0].End.Add(config.Duration)) {
+		if !entry.Time.Before(incident.TimeWindows[0].Start.Add(-config.Duration.Duration)) && entry.Time.Before(incident.TimeWindows[0].End.Add(config.Duration.Duration)) {
 			if entry.Time.Before(incident.TimeWindows[0].Start) {
 				incidents[entry.Service][i].TimeWindows[0].Start = entry.Time
 			}

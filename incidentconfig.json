@@ -1,0 +1,16 @@
+{
+    "ValidSeverityLevels": [
+        "INFO",
+        "WARN",
+        "ERROR",
+        "FATAL"
+    ],
+    "MinSeverityLevel": 1,
+    "Duration": "1m",
+    "MinEntriesBySeverity": [
+        1,
+        3,
+        2,
+        1
+    ]
+}
