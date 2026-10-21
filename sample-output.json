@@ -1,0 +1,1836 @@
+{
+  "TotalLines": 6000,
+  "ValidLines": 5532,
+  "MalformedLines": 468,
+  "EntryCountsBySeverity": {
+    "ERROR": 820,
+    "FATAL": 271,
+    "INFO": 3335,
+    "WARN": 1106
+  },
+  "EntryCountsByService": {
+    "auth-service": 1106,
+    "notification-service": 1130,
+    "order-service": 1082,
+    "payment-service": 1090,
+    "user-service": 1124
+  },
+  "Incidents": {
+    "auth-service": [
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-04T23:45:35Z",
+            "Severity": 3,
+            "Service": "auth-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-04T23:45:35Z FATAL auth-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-04T23:45:35Z",
+            "End": "2026-10-04T23:45:35Z"
+          },
+          {
+            "Start": "2026-10-03T12:42:29Z",
+            "End": "2026-10-03T12:42:29Z"
+          },
+          {
+            "Start": "2026-10-03T20:39:31Z",
+            "End": "2026-10-03T20:39:31Z"
+          },
+          {
+            "Start": "2026-10-05T11:21:06Z",
+            "End": "2026-10-05T11:21:06Z"
+          },
+          {
+            "Start": "2026-10-02T06:51:08Z",
+            "End": "2026-10-02T06:51:08Z"
+          },
+          {
+            "Start": "2026-10-05T19:14:24Z",
+            "End": "2026-10-05T19:14:24Z"
+          },
+          {
+            "Start": "2026-10-04T14:25:37Z",
+            "End": "2026-10-04T14:25:37Z"
+          },
+          {
+            "Start": "2026-10-04T04:37:46Z",
+            "End": "2026-10-04T04:37:46Z"
+          },
+          {
+            "Start": "2026-10-05T17:34:15Z",
+            "End": "2026-10-05T17:34:15Z"
+          },
+          {
+            "Start": "2026-10-03T18:18:18Z",
+            "End": "2026-10-03T18:18:18Z"
+          },
+          {
+            "Start": "2026-10-04T00:07:17Z",
+            "End": "2026-10-04T00:07:17Z"
+          },
+          {
+            "Start": "2026-10-04T01:13:30Z",
+            "End": "2026-10-04T01:13:30Z"
+          },
+          {
+            "Start": "2026-10-01T18:28:21Z",
+            "End": "2026-10-01T18:28:21Z"
+          },
+          {
+            "Start": "2026-10-01T00:52:07Z",
+            "End": "2026-10-01T00:52:07Z"
+          },
+          {
+            "Start": "2026-10-02T17:04:17Z",
+            "End": "2026-10-02T17:04:17Z"
+          },
+          {
+            "Start": "2026-10-04T22:40:23Z",
+            "End": "2026-10-04T22:40:23Z"
+          },
+          {
+            "Start": "2026-10-03T19:17:49Z",
+            "End": "2026-10-03T19:17:49Z"
+          },
+          {
+            "Start": "2026-10-02T16:38:33Z",
+            "End": "2026-10-02T16:38:33Z"
+          },
+          {
+            "Start": "2026-10-04T23:43:52Z",
+            "End": "2026-10-04T23:43:52Z"
+          },
+          {
+            "Start": "2026-10-01T12:37:53Z",
+            "End": "2026-10-01T12:37:53Z"
+          },
+          {
+            "Start": "2026-10-05T03:01:09Z",
+            "End": "2026-10-05T03:01:09Z"
+          },
+          {
+            "Start": "2026-10-05T16:27:12Z",
+            "End": "2026-10-05T16:27:12Z"
+          },
+          {
+            "Start": "2026-10-01T07:33:29Z",
+            "End": "2026-10-01T07:33:29Z"
+          },
+          {
+            "Start": "2026-10-01T01:32:15Z",
+            "End": "2026-10-01T01:32:15Z"
+          },
+          {
+            "Start": "2026-10-01T23:58:46Z",
+            "End": "2026-10-01T23:58:46Z"
+          },
+          {
+            "Start": "2026-10-04T00:50:09Z",
+            "End": "2026-10-04T00:50:09Z"
+          },
+          {
+            "Start": "2026-10-06T13:27:20Z",
+            "End": "2026-10-06T13:27:20Z"
+          },
+          {
+            "Start": "2026-10-05T01:05:12Z",
+            "End": "2026-10-05T01:05:12Z"
+          },
+          {
+            "Start": "2026-10-06T00:39:48Z",
+            "End": "2026-10-06T00:39:48Z"
+          },
+          {
+            "Start": "2026-10-06T18:49:45Z",
+            "End": "2026-10-06T18:49:45Z"
+          },
+          {
+            "Start": "2026-10-01T20:30:57Z",
+            "End": "2026-10-01T20:30:57Z"
+          },
+          {
+            "Start": "2026-10-02T15:27:19Z",
+            "End": "2026-10-02T15:27:19Z"
+          },
+          {
+            "Start": "2026-10-06T10:37:37Z",
+            "End": "2026-10-06T10:37:37Z"
+          },
+          {
+            "Start": "2026-10-01T03:41:57Z",
+            "End": "2026-10-01T03:41:57Z"
+          },
+          {
+            "Start": "2026-10-03T04:41:05Z",
+            "End": "2026-10-03T04:41:05Z"
+          },
+          {
+            "Start": "2026-10-02T11:06:15Z",
+            "End": "2026-10-02T11:06:15Z"
+          },
+          {
+            "Start": "2026-10-04T17:34:48Z",
+            "End": "2026-10-04T17:34:48Z"
+          },
+          {
+            "Start": "2026-10-01T12:10:37Z",
+            "End": "2026-10-01T12:10:37Z"
+          },
+          {
+            "Start": "2026-10-02T06:43:52Z",
+            "End": "2026-10-02T06:43:52Z"
+          },
+          {
+            "Start": "2026-10-02T09:40:52Z",
+            "End": "2026-10-02T09:40:52Z"
+          },
+          {
+            "Start": "2026-10-03T03:20:30Z",
+            "End": "2026-10-03T03:20:30Z"
+          },
+          {
+            "Start": "2026-10-02T10:03:07Z",
+            "End": "2026-10-02T10:03:07Z"
+          },
+          {
+            "Start": "2026-10-03T01:19:17Z",
+            "End": "2026-10-03T01:19:17Z"
+          },
+          {
+            "Start": "2026-10-03T16:06:37Z",
+            "End": "2026-10-03T16:06:37Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-06T18:35:41Z",
+            "Severity": 3,
+            "Service": "auth-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-06T18:35:41Z FATAL auth-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-06T18:36:10Z",
+            "Severity": 1,
+            "Service": "auth-service",
+            "Message": "Database connection pool reaching threshold (80% utilized)",
+            "Text": "2026-10-06T18:36:10Z WARN auth-service Database connection pool reaching threshold (80% utilized)"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-06T18:35:41Z",
+            "End": "2026-10-06T18:36:10Z"
+          },
+          {
+            "Start": "2026-10-06T11:17:08Z",
+            "End": "2026-10-06T11:17:44Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T15:29:22Z",
+            "Severity": 2,
+            "Service": "auth-service",
+            "Message": "Failed to connect to database: timeout after 5000ms",
+            "Text": "2026-10-02T15:29:22Z ERROR auth-service Failed to connect to database: timeout after 5000ms"
+          },
+          {
+            "Time": "2026-10-02T15:30:10Z",
+            "Severity": 2,
+            "Service": "auth-service",
+            "Message": "SQL syntax error while executing query: syntax error at end of input",
+            "Text": "2026-10-02T15:30:10Z ERROR auth-service SQL syntax error while executing query: syntax error at end of input"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T15:29:22Z",
+            "End": "2026-10-02T15:30:10Z"
+          },
+          {
+            "Start": "2026-10-04T22:58:02Z",
+            "End": "2026-10-04T22:58:24Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-04T06:04:50Z",
+            "Severity": 3,
+            "Service": "auth-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-04T06:04:50Z FATAL auth-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-04T06:04:23Z",
+            "Severity": 1,
+            "Service": "auth-service",
+            "Message": "High memory usage detected: 85%",
+            "Text": "2026-10-04T06:04:23Z WARN auth-service High memory usage detected: 85%"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-04T06:04:23Z",
+            "End": "2026-10-04T06:04:50Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-01T07:57:01Z",
+            "Severity": 2,
+            "Service": "auth-service",
+            "Message": "Payment gateway returned 502 Bad Gateway",
+            "Text": "2026-10-01T07:57:01Z ERROR auth-service Payment gateway returned 502 Bad Gateway"
+          },
+          {
+            "Time": "2026-10-01T07:56:16Z",
+            "Severity": 3,
+            "Service": "auth-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-01T07:56:16Z FATAL auth-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-01T07:56:16Z",
+            "End": "2026-10-01T07:57:01Z"
+          },
+          {
+            "Start": "2026-10-03T01:08:36Z",
+            "End": "2026-10-03T01:08:49Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-03T22:41:57Z",
+            "Severity": 3,
+            "Service": "auth-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-03T22:41:57Z FATAL auth-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-03T22:41:36Z",
+            "Severity": 1,
+            "Service": "auth-service",
+            "Message": "Rate limit approaching for client IP 192.168.1.50",
+            "Text": "2026-10-03T22:41:36Z WARN auth-service Rate limit approaching for client IP 192.168.1.50"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-03T22:41:36Z",
+            "End": "2026-10-03T22:41:57Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-04T16:37:02Z",
+            "Severity": 3,
+            "Service": "auth-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-04T16:37:02Z FATAL auth-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-04T16:36:09Z",
+            "Severity": 1,
+            "Service": "auth-service",
+            "Message": "Database connection pool reaching threshold (80% utilized)",
+            "Text": "2026-10-04T16:36:09Z WARN auth-service Database connection pool reaching threshold (80% utilized)"
+          },
+          {
+            "Time": "2026-10-04T16:37:33Z",
+            "Severity": 1,
+            "Service": "auth-service",
+            "Message": "High memory usage detected: 85%",
+            "Text": "2026-10-04T16:37:33Z WARN auth-service High memory usage detected: 85%"
+          },
+          {
+            "Time": "2026-10-04T16:36:59Z",
+            "Severity": 1,
+            "Service": "auth-service",
+            "Message": "High memory usage detected: 85%",
+            "Text": "2026-10-04T16:36:59Z WARN auth-service High memory usage detected: 85%"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-04T16:36:09Z",
+            "End": "2026-10-04T16:37:33Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T04:17:06Z",
+            "Severity": 2,
+            "Service": "auth-service",
+            "Message": "Failed to connect to database: timeout after 5000ms",
+            "Text": "2026-10-02T04:17:06Z ERROR auth-service Failed to connect to database: timeout after 5000ms"
+          },
+          {
+            "Time": "2026-10-02T04:18:05Z",
+            "Severity": 3,
+            "Service": "auth-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-02T04:18:05Z FATAL auth-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T04:17:06Z",
+            "End": "2026-10-02T04:18:05Z"
+          }
+        ]
+      }
+    ],
+    "notification-service": [
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-03T03:48:39Z",
+            "Severity": 3,
+            "Service": "notification-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-03T03:48:39Z FATAL notification-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-03T03:48:39Z",
+            "End": "2026-10-03T03:48:39Z"
+          },
+          {
+            "Start": "2026-10-04T08:24:11Z",
+            "End": "2026-10-04T08:24:11Z"
+          },
+          {
+            "Start": "2026-10-05T20:02:41Z",
+            "End": "2026-10-05T20:02:41Z"
+          },
+          {
+            "Start": "2026-10-06T06:26:39Z",
+            "End": "2026-10-06T06:26:39Z"
+          },
+          {
+            "Start": "2026-10-03T16:49:59Z",
+            "End": "2026-10-03T16:49:59Z"
+          },
+          {
+            "Start": "2026-10-06T03:52:47Z",
+            "End": "2026-10-06T03:52:47Z"
+          },
+          {
+            "Start": "2026-10-05T14:44:26Z",
+            "End": "2026-10-05T14:44:26Z"
+          },
+          {
+            "Start": "2026-10-04T01:16:48Z",
+            "End": "2026-10-04T01:16:48Z"
+          },
+          {
+            "Start": "2026-10-06T02:33:50Z",
+            "End": "2026-10-06T02:33:50Z"
+          },
+          {
+            "Start": "2026-10-06T13:14:08Z",
+            "End": "2026-10-06T13:14:08Z"
+          },
+          {
+            "Start": "2026-10-05T12:39:05Z",
+            "End": "2026-10-05T12:39:05Z"
+          },
+          {
+            "Start": "2026-10-06T04:59:15Z",
+            "End": "2026-10-06T04:59:15Z"
+          },
+          {
+            "Start": "2026-10-01T16:21:03Z",
+            "End": "2026-10-01T16:21:03Z"
+          },
+          {
+            "Start": "2026-10-03T00:27:29Z",
+            "End": "2026-10-03T00:27:29Z"
+          },
+          {
+            "Start": "2026-10-04T04:27:43Z",
+            "End": "2026-10-04T04:27:43Z"
+          },
+          {
+            "Start": "2026-10-06T08:28:10Z",
+            "End": "2026-10-06T08:28:10Z"
+          },
+          {
+            "Start": "2026-10-04T12:58:18Z",
+            "End": "2026-10-04T12:58:18Z"
+          },
+          {
+            "Start": "2026-10-02T10:41:50Z",
+            "End": "2026-10-02T10:41:50Z"
+          },
+          {
+            "Start": "2026-10-03T05:29:38Z",
+            "End": "2026-10-03T05:29:38Z"
+          },
+          {
+            "Start": "2026-10-06T05:23:16Z",
+            "End": "2026-10-06T05:23:16Z"
+          },
+          {
+            "Start": "2026-10-01T21:28:37Z",
+            "End": "2026-10-01T21:28:37Z"
+          },
+          {
+            "Start": "2026-10-03T21:02:15Z",
+            "End": "2026-10-03T21:02:15Z"
+          },
+          {
+            "Start": "2026-10-05T10:46:23Z",
+            "End": "2026-10-05T10:46:23Z"
+          },
+          {
+            "Start": "2026-10-02T12:22:40Z",
+            "End": "2026-10-02T12:22:40Z"
+          },
+          {
+            "Start": "2026-10-04T00:57:01Z",
+            "End": "2026-10-04T00:57:01Z"
+          },
+          {
+            "Start": "2026-10-02T06:31:55Z",
+            "End": "2026-10-02T06:31:55Z"
+          },
+          {
+            "Start": "2026-10-02T22:02:53Z",
+            "End": "2026-10-02T22:02:53Z"
+          },
+          {
+            "Start": "2026-10-05T11:23:00Z",
+            "End": "2026-10-05T11:23:00Z"
+          },
+          {
+            "Start": "2026-10-04T10:04:22Z",
+            "End": "2026-10-04T10:04:22Z"
+          },
+          {
+            "Start": "2026-10-01T09:58:45Z",
+            "End": "2026-10-01T09:58:45Z"
+          },
+          {
+            "Start": "2026-10-01T17:05:32Z",
+            "End": "2026-10-01T17:05:32Z"
+          },
+          {
+            "Start": "2026-10-06T04:35:30Z",
+            "End": "2026-10-06T04:35:30Z"
+          },
+          {
+            "Start": "2026-10-04T13:45:09Z",
+            "End": "2026-10-04T13:45:09Z"
+          },
+          {
+            "Start": "2026-10-01T11:54:10Z",
+            "End": "2026-10-01T11:54:10Z"
+          },
+          {
+            "Start": "2026-10-02T23:10:03Z",
+            "End": "2026-10-02T23:10:03Z"
+          },
+          {
+            "Start": "2026-10-01T03:09:48Z",
+            "End": "2026-10-01T03:09:48Z"
+          },
+          {
+            "Start": "2026-10-06T11:25:27Z",
+            "End": "2026-10-06T11:25:27Z"
+          },
+          {
+            "Start": "2026-10-05T09:23:28Z",
+            "End": "2026-10-05T09:23:28Z"
+          },
+          {
+            "Start": "2026-10-01T23:39:10Z",
+            "End": "2026-10-01T23:39:10Z"
+          },
+          {
+            "Start": "2026-10-03T22:52:51Z",
+            "End": "2026-10-03T22:52:51Z"
+          },
+          {
+            "Start": "2026-10-04T12:39:11Z",
+            "End": "2026-10-04T12:39:11Z"
+          },
+          {
+            "Start": "2026-10-06T07:40:03Z",
+            "End": "2026-10-06T07:40:03Z"
+          },
+          {
+            "Start": "2026-10-02T13:40:49Z",
+            "End": "2026-10-02T13:40:49Z"
+          },
+          {
+            "Start": "2026-10-03T12:33:11Z",
+            "End": "2026-10-03T12:33:11Z"
+          },
+          {
+            "Start": "2026-10-01T05:03:01Z",
+            "End": "2026-10-01T05:03:01Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-06T09:34:41Z",
+            "Severity": 1,
+            "Service": "notification-service",
+            "Message": "High memory usage detected: 85%",
+            "Text": "2026-10-06T09:34:41Z WARN notification-service High memory usage detected: 85%"
+          },
+          {
+            "Time": "2026-10-06T09:34:39Z",
+            "Severity": 3,
+            "Service": "notification-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-06T09:34:39Z FATAL notification-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-06T09:34:39Z",
+            "End": "2026-10-06T09:34:41Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-05T18:55:35Z",
+            "Severity": 3,
+            "Service": "notification-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-05T18:55:35Z FATAL notification-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-05T18:54:41Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "Failed to connect to database: timeout after 5000ms",
+            "Text": "2026-10-05T18:54:41Z ERROR notification-service Failed to connect to database: timeout after 5000ms"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-05T18:54:41Z",
+            "End": "2026-10-05T18:55:35Z"
+          },
+          {
+            "Start": "2026-10-05T04:41:23Z",
+            "End": "2026-10-05T04:42:02Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-03T23:14:46Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "NullPointerException in controller layer processing request",
+            "Text": "2026-10-03T23:14:46Z ERROR notification-service NullPointerException in controller layer processing request"
+          },
+          {
+            "Time": "2026-10-03T23:15:34Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "Failed to connect to database: timeout after 5000ms",
+            "Text": "2026-10-03T23:15:34Z ERROR notification-service Failed to connect to database: timeout after 5000ms"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-03T23:14:46Z",
+            "End": "2026-10-03T23:15:34Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-04T12:16:04Z",
+            "Severity": 1,
+            "Service": "notification-service",
+            "Message": "Deprecated API endpoint /api/old/users accessed",
+            "Text": "2026-10-04T12:16:04Z WARN notification-service Deprecated API endpoint /api/old/users accessed"
+          },
+          {
+            "Time": "2026-10-04T12:15:22Z",
+            "Severity": 3,
+            "Service": "notification-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-04T12:15:22Z FATAL notification-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-04T12:15:22Z",
+            "End": "2026-10-04T12:16:04Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T02:59:10Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "Failed to connect to database: timeout after 5000ms",
+            "Text": "2026-10-02T02:59:10Z ERROR notification-service Failed to connect to database: timeout after 5000ms"
+          },
+          {
+            "Time": "2026-10-02T02:58:21Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "Payment gateway returned 502 Bad Gateway",
+            "Text": "2026-10-02T02:58:21Z ERROR notification-service Payment gateway returned 502 Bad Gateway"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T02:58:21Z",
+            "End": "2026-10-02T02:59:10Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-01T08:49:29Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "Payment gateway returned 502 Bad Gateway",
+            "Text": "2026-10-01T08:49:29Z ERROR notification-service Payment gateway returned 502 Bad Gateway"
+          },
+          {
+            "Time": "2026-10-01T08:49:53Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "NullPointerException in controller layer processing request",
+            "Text": "2026-10-01T08:49:53Z ERROR notification-service NullPointerException in controller layer processing request"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-01T08:49:29Z",
+            "End": "2026-10-01T08:49:53Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-06T15:21:37Z",
+            "Severity": 3,
+            "Service": "notification-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-06T15:21:37Z FATAL notification-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-06T15:20:45Z",
+            "Severity": 2,
+            "Service": "notification-service",
+            "Message": "Payment gateway returned 502 Bad Gateway",
+            "Text": "2026-10-06T15:20:45Z ERROR notification-service Payment gateway returned 502 Bad Gateway"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-06T15:20:45Z",
+            "End": "2026-10-06T15:21:37Z"
+          }
+        ]
+      }
+    ],
+    "order-service": [
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-04T05:49:16Z",
+            "Severity": 3,
+            "Service": "order-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-04T05:49:16Z FATAL order-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-04T05:49:16Z",
+            "End": "2026-10-04T05:49:16Z"
+          },
+          {
+            "Start": "2026-10-03T01:22:36Z",
+            "End": "2026-10-03T01:22:36Z"
+          },
+          {
+            "Start": "2026-10-04T11:13:14Z",
+            "End": "2026-10-04T11:13:14Z"
+          },
+          {
+            "Start": "2026-10-03T05:13:51Z",
+            "End": "2026-10-03T05:13:51Z"
+          },
+          {
+            "Start": "2026-10-05T19:59:17Z",
+            "End": "2026-10-05T19:59:17Z"
+          },
+          {
+            "Start": "2026-10-06T08:26:31Z",
+            "End": "2026-10-06T08:26:31Z"
+          },
+          {
+            "Start": "2026-10-02T20:02:40Z",
+            "End": "2026-10-02T20:02:40Z"
+          },
+          {
+            "Start": "2026-10-05T21:37:18Z",
+            "End": "2026-10-05T21:37:18Z"
+          },
+          {
+            "Start": "2026-10-01T22:40:06Z",
+            "End": "2026-10-01T22:40:06Z"
+          },
+          {
+            "Start": "2026-10-04T16:54:35Z",
+            "End": "2026-10-04T16:54:35Z"
+          },
+          {
+            "Start": "2026-10-04T05:14:01Z",
+            "End": "2026-10-04T05:14:01Z"
+          },
+          {
+            "Start": "2026-10-03T13:20:49Z",
+            "End": "2026-10-03T13:20:49Z"
+          },
+          {
+            "Start": "2026-10-03T04:17:31Z",
+            "End": "2026-10-03T04:17:31Z"
+          },
+          {
+            "Start": "2026-10-01T20:25:16Z",
+            "End": "2026-10-01T20:25:16Z"
+          },
+          {
+            "Start": "2026-10-05T18:39:34Z",
+            "End": "2026-10-05T18:39:34Z"
+          },
+          {
+            "Start": "2026-10-02T16:51:26Z",
+            "End": "2026-10-02T16:51:26Z"
+          },
+          {
+            "Start": "2026-10-01T20:13:36Z",
+            "End": "2026-10-01T20:13:36Z"
+          },
+          {
+            "Start": "2026-10-04T18:44:24Z",
+            "End": "2026-10-04T18:44:24Z"
+          },
+          {
+            "Start": "2026-10-01T04:49:50Z",
+            "End": "2026-10-01T04:49:50Z"
+          },
+          {
+            "Start": "2026-10-04T18:31:51Z",
+            "End": "2026-10-04T18:31:51Z"
+          },
+          {
+            "Start": "2026-10-01T14:50:15Z",
+            "End": "2026-10-01T14:50:15Z"
+          },
+          {
+            "Start": "2026-10-03T07:54:41Z",
+            "End": "2026-10-03T07:54:41Z"
+          },
+          {
+            "Start": "2026-10-06T17:48:56Z",
+            "End": "2026-10-06T17:48:56Z"
+          },
+          {
+            "Start": "2026-10-01T18:00:14Z",
+            "End": "2026-10-01T18:00:14Z"
+          },
+          {
+            "Start": "2026-10-03T18:49:56Z",
+            "End": "2026-10-03T18:49:56Z"
+          },
+          {
+            "Start": "2026-10-04T13:09:47Z",
+            "End": "2026-10-04T13:09:47Z"
+          },
+          {
+            "Start": "2026-10-02T07:51:31Z",
+            "End": "2026-10-02T07:51:31Z"
+          },
+          {
+            "Start": "2026-10-06T17:06:43Z",
+            "End": "2026-10-06T17:06:43Z"
+          },
+          {
+            "Start": "2026-10-05T04:22:34Z",
+            "End": "2026-10-05T04:22:34Z"
+          },
+          {
+            "Start": "2026-10-06T10:52:46Z",
+            "End": "2026-10-06T10:52:46Z"
+          },
+          {
+            "Start": "2026-10-06T02:08:37Z",
+            "End": "2026-10-06T02:08:37Z"
+          },
+          {
+            "Start": "2026-10-02T05:02:48Z",
+            "End": "2026-10-02T05:02:48Z"
+          },
+          {
+            "Start": "2026-10-06T01:32:43Z",
+            "End": "2026-10-06T01:32:43Z"
+          },
+          {
+            "Start": "2026-10-06T15:02:49Z",
+            "End": "2026-10-06T15:02:49Z"
+          },
+          {
+            "Start": "2026-10-03T05:40:35Z",
+            "End": "2026-10-03T05:40:35Z"
+          },
+          {
+            "Start": "2026-10-05T07:51:15Z",
+            "End": "2026-10-05T07:51:15Z"
+          },
+          {
+            "Start": "2026-10-03T10:49:04Z",
+            "End": "2026-10-03T10:49:04Z"
+          },
+          {
+            "Start": "2026-10-06T08:45:52Z",
+            "End": "2026-10-06T08:45:52Z"
+          },
+          {
+            "Start": "2026-10-02T06:53:18Z",
+            "End": "2026-10-02T06:53:18Z"
+          },
+          {
+            "Start": "2026-10-05T01:04:37Z",
+            "End": "2026-10-05T01:04:37Z"
+          },
+          {
+            "Start": "2026-10-01T01:50:59Z",
+            "End": "2026-10-01T01:50:59Z"
+          },
+          {
+            "Start": "2026-10-02T00:24:22Z",
+            "End": "2026-10-02T00:24:22Z"
+          },
+          {
+            "Start": "2026-10-02T00:13:10Z",
+            "End": "2026-10-02T00:13:10Z"
+          },
+          {
+            "Start": "2026-10-06T13:15:23Z",
+            "End": "2026-10-06T13:15:23Z"
+          },
+          {
+            "Start": "2026-10-06T09:06:23Z",
+            "End": "2026-10-06T09:06:23Z"
+          },
+          {
+            "Start": "2026-10-01T17:49:01Z",
+            "End": "2026-10-01T17:49:01Z"
+          },
+          {
+            "Start": "2026-10-03T20:20:55Z",
+            "End": "2026-10-03T20:20:55Z"
+          },
+          {
+            "Start": "2026-10-03T07:53:39Z",
+            "End": "2026-10-03T07:53:39Z"
+          },
+          {
+            "Start": "2026-10-04T12:37:54Z",
+            "End": "2026-10-04T12:37:54Z"
+          },
+          {
+            "Start": "2026-10-06T15:42:53Z",
+            "End": "2026-10-06T15:42:53Z"
+          },
+          {
+            "Start": "2026-10-01T19:29:21Z",
+            "End": "2026-10-01T19:29:21Z"
+          },
+          {
+            "Start": "2026-10-02T17:16:54Z",
+            "End": "2026-10-02T17:16:54Z"
+          },
+          {
+            "Start": "2026-10-02T22:03:28Z",
+            "End": "2026-10-02T22:03:28Z"
+          },
+          {
+            "Start": "2026-10-02T19:18:27Z",
+            "End": "2026-10-02T19:18:27Z"
+          },
+          {
+            "Start": "2026-10-02T22:43:58Z",
+            "End": "2026-10-02T22:43:58Z"
+          },
+          {
+            "Start": "2026-10-03T12:59:25Z",
+            "End": "2026-10-03T12:59:25Z"
+          },
+          {
+            "Start": "2026-10-01T21:39:40Z",
+            "End": "2026-10-01T21:39:40Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-04T02:23:55Z",
+            "Severity": 1,
+            "Service": "order-service",
+            "Message": "High memory usage detected: 85%",
+            "Text": "2026-10-04T02:23:55Z WARN order-service High memory usage detected: 85%"
+          },
+          {
+            "Time": "2026-10-04T02:24:36Z",
+            "Severity": 3,
+            "Service": "order-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-04T02:24:36Z FATAL order-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-04T02:23:55Z",
+            "End": "2026-10-04T02:24:36Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-05T13:33:05Z",
+            "Severity": 1,
+            "Service": "order-service",
+            "Message": "Rate limit approaching for client IP 192.168.1.50",
+            "Text": "2026-10-05T13:33:05Z WARN order-service Rate limit approaching for client IP 192.168.1.50"
+          },
+          {
+            "Time": "2026-10-05T13:33:24Z",
+            "Severity": 3,
+            "Service": "order-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-05T13:33:24Z FATAL order-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-05T13:33:05Z",
+            "End": "2026-10-05T13:33:24Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-06T08:04:37Z",
+            "Severity": 2,
+            "Service": "order-service",
+            "Message": "Failed to connect to database: timeout after 5000ms",
+            "Text": "2026-10-06T08:04:37Z ERROR order-service Failed to connect to database: timeout after 5000ms"
+          },
+          {
+            "Time": "2026-10-06T08:04:44Z",
+            "Severity": 3,
+            "Service": "order-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-06T08:04:44Z FATAL order-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-06T08:04:37Z",
+            "End": "2026-10-06T08:04:44Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-05T23:55:12Z",
+            "Severity": 1,
+            "Service": "order-service",
+            "Message": "Deprecated API endpoint /api/old/users accessed",
+            "Text": "2026-10-05T23:55:12Z WARN order-service Deprecated API endpoint /api/old/users accessed"
+          },
+          {
+            "Time": "2026-10-05T23:55:17Z",
+            "Severity": 3,
+            "Service": "order-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-05T23:55:17Z FATAL order-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-05T23:55:12Z",
+            "End": "2026-10-05T23:55:17Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-01T19:38:47Z",
+            "Severity": 1,
+            "Service": "order-service",
+            "Message": "Database connection pool reaching threshold (80% utilized)",
+            "Text": "2026-10-01T19:38:47Z WARN order-service Database connection pool reaching threshold (80% utilized)"
+          },
+          {
+            "Time": "2026-10-01T19:39:23Z",
+            "Severity": 3,
+            "Service": "order-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-01T19:39:23Z FATAL order-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-01T19:38:47Z",
+            "End": "2026-10-01T19:39:23Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T12:08:35Z",
+            "Severity": 2,
+            "Service": "order-service",
+            "Message": "NullPointerException in controller layer processing request",
+            "Text": "2026-10-02T12:08:35Z ERROR order-service NullPointerException in controller layer processing request"
+          },
+          {
+            "Time": "2026-10-02T12:07:59Z",
+            "Severity": 3,
+            "Service": "order-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-02T12:07:59Z FATAL order-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T12:07:59Z",
+            "End": "2026-10-02T12:08:35Z"
+          }
+        ]
+      }
+    ],
+    "payment-service": [
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T12:52:04Z",
+            "Severity": 3,
+            "Service": "payment-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-02T12:52:04Z FATAL payment-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T12:52:04Z",
+            "End": "2026-10-02T12:52:04Z"
+          },
+          {
+            "Start": "2026-10-03T19:49:12Z",
+            "End": "2026-10-03T19:49:12Z"
+          },
+          {
+            "Start": "2026-10-06T14:58:35Z",
+            "End": "2026-10-06T14:58:35Z"
+          },
+          {
+            "Start": "2026-10-05T08:02:23Z",
+            "End": "2026-10-05T08:02:23Z"
+          },
+          {
+            "Start": "2026-10-04T12:46:30Z",
+            "End": "2026-10-04T12:46:30Z"
+          },
+          {
+            "Start": "2026-10-02T21:06:47Z",
+            "End": "2026-10-02T21:06:47Z"
+          },
+          {
+            "Start": "2026-10-04T19:55:49Z",
+            "End": "2026-10-04T19:55:49Z"
+          },
+          {
+            "Start": "2026-10-01T08:42:07Z",
+            "End": "2026-10-01T08:42:07Z"
+          },
+          {
+            "Start": "2026-10-01T14:19:38Z",
+            "End": "2026-10-01T14:19:38Z"
+          },
+          {
+            "Start": "2026-10-06T09:16:24Z",
+            "End": "2026-10-06T09:16:24Z"
+          },
+          {
+            "Start": "2026-10-06T09:19:17Z",
+            "End": "2026-10-06T09:19:17Z"
+          },
+          {
+            "Start": "2026-10-02T16:18:32Z",
+            "End": "2026-10-02T16:18:32Z"
+          },
+          {
+            "Start": "2026-10-02T07:08:47Z",
+            "End": "2026-10-02T07:08:47Z"
+          },
+          {
+            "Start": "2026-10-03T13:33:48Z",
+            "End": "2026-10-03T13:33:48Z"
+          },
+          {
+            "Start": "2026-10-03T23:57:07Z",
+            "End": "2026-10-03T23:57:07Z"
+          },
+          {
+            "Start": "2026-10-05T22:13:45Z",
+            "End": "2026-10-05T22:13:45Z"
+          },
+          {
+            "Start": "2026-10-02T07:53:01Z",
+            "End": "2026-10-02T07:53:01Z"
+          },
+          {
+            "Start": "2026-10-05T11:25:16Z",
+            "End": "2026-10-05T11:25:16Z"
+          },
+          {
+            "Start": "2026-10-06T14:06:03Z",
+            "End": "2026-10-06T14:06:03Z"
+          },
+          {
+            "Start": "2026-10-04T12:54:27Z",
+            "End": "2026-10-04T12:54:27Z"
+          },
+          {
+            "Start": "2026-10-06T04:26:48Z",
+            "End": "2026-10-06T04:26:48Z"
+          },
+          {
+            "Start": "2026-10-05T12:00:52Z",
+            "End": "2026-10-05T12:00:52Z"
+          },
+          {
+            "Start": "2026-10-03T04:16:59Z",
+            "End": "2026-10-03T04:16:59Z"
+          },
+          {
+            "Start": "2026-10-03T07:30:15Z",
+            "End": "2026-10-03T07:30:15Z"
+          },
+          {
+            "Start": "2026-10-01T04:39:20Z",
+            "End": "2026-10-01T04:39:20Z"
+          },
+          {
+            "Start": "2026-10-05T20:05:12Z",
+            "End": "2026-10-05T20:05:12Z"
+          },
+          {
+            "Start": "2026-10-01T06:58:46Z",
+            "End": "2026-10-01T06:58:46Z"
+          },
+          {
+            "Start": "2026-10-05T08:40:36Z",
+            "End": "2026-10-05T08:40:36Z"
+          },
+          {
+            "Start": "2026-10-01T19:08:59Z",
+            "End": "2026-10-01T19:08:59Z"
+          },
+          {
+            "Start": "2026-10-03T04:00:47Z",
+            "End": "2026-10-03T04:00:47Z"
+          },
+          {
+            "Start": "2026-10-01T17:18:59Z",
+            "End": "2026-10-01T17:18:59Z"
+          },
+          {
+            "Start": "2026-10-06T14:21:52Z",
+            "End": "2026-10-06T14:21:52Z"
+          },
+          {
+            "Start": "2026-10-03T10:35:54Z",
+            "End": "2026-10-03T10:35:54Z"
+          },
+          {
+            "Start": "2026-10-03T12:47:25Z",
+            "End": "2026-10-03T12:47:25Z"
+          },
+          {
+            "Start": "2026-10-02T13:07:13Z",
+            "End": "2026-10-02T13:07:13Z"
+          },
+          {
+            "Start": "2026-10-05T07:37:07Z",
+            "End": "2026-10-05T07:37:07Z"
+          },
+          {
+            "Start": "2026-10-05T13:37:47Z",
+            "End": "2026-10-05T13:37:47Z"
+          },
+          {
+            "Start": "2026-10-02T17:30:14Z",
+            "End": "2026-10-02T17:30:14Z"
+          },
+          {
+            "Start": "2026-10-05T13:54:56Z",
+            "End": "2026-10-05T13:54:56Z"
+          },
+          {
+            "Start": "2026-10-03T18:01:07Z",
+            "End": "2026-10-03T18:01:07Z"
+          },
+          {
+            "Start": "2026-10-01T05:20:35Z",
+            "End": "2026-10-01T05:20:35Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-03T01:07:40Z",
+            "Severity": 3,
+            "Service": "payment-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-03T01:07:40Z FATAL payment-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-03T01:07:14Z",
+            "Severity": 3,
+            "Service": "payment-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-03T01:07:14Z FATAL payment-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-03T01:07:14Z",
+            "End": "2026-10-03T01:07:40Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T21:17:32Z",
+            "Severity": 3,
+            "Service": "payment-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-02T21:17:32Z FATAL payment-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-02T21:17:22Z",
+            "Severity": 2,
+            "Service": "payment-service",
+            "Message": "Payment gateway timeout - transaction aborted",
+            "Text": "2026-10-02T21:17:22Z ERROR payment-service Payment gateway timeout - transaction aborted"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T21:17:22Z",
+            "End": "2026-10-02T21:17:32Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-05T05:20:13Z",
+            "Severity": 1,
+            "Service": "payment-service",
+            "Message": "Deprecated API endpoint /api/old/users accessed",
+            "Text": "2026-10-05T05:20:13Z WARN payment-service Deprecated API endpoint /api/old/users accessed"
+          },
+          {
+            "Time": "2026-10-05T05:21:00Z",
+            "Severity": 3,
+            "Service": "payment-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-05T05:21:00Z FATAL payment-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-05T05:20:13Z",
+            "End": "2026-10-05T05:21:00Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T04:21:52Z",
+            "Severity": 3,
+            "Service": "payment-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-02T04:21:52Z FATAL payment-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-02T04:21:15Z",
+            "Severity": 1,
+            "Service": "payment-service",
+            "Message": "Rate limit approaching for client IP 192.168.1.50",
+            "Text": "2026-10-02T04:21:15Z WARN payment-service Rate limit approaching for client IP 192.168.1.50"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T04:21:15Z",
+            "End": "2026-10-02T04:21:52Z"
+          },
+          {
+            "Start": "2026-10-03T01:19:29Z",
+            "End": "2026-10-03T01:19:45Z"
+          },
+          {
+            "Start": "2026-10-03T14:53:03Z",
+            "End": "2026-10-03T14:53:31Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T05:07:00Z",
+            "Severity": 2,
+            "Service": "payment-service",
+            "Message": "Payment gateway timeout - transaction aborted",
+            "Text": "2026-10-02T05:07:00Z ERROR payment-service Payment gateway timeout - transaction aborted"
+          },
+          {
+            "Time": "2026-10-02T05:07:29Z",
+            "Severity": 1,
+            "Service": "payment-service",
+            "Message": "Database connection pool reaching threshold (80% utilized)",
+            "Text": "2026-10-02T05:07:29Z WARN payment-service Database connection pool reaching threshold (80% utilized)"
+          },
+          {
+            "Time": "2026-10-02T05:07:55Z",
+            "Severity": 2,
+            "Service": "payment-service",
+            "Message": "Payment gateway timeout - transaction aborted",
+            "Text": "2026-10-02T05:07:55Z ERROR payment-service Payment gateway timeout - transaction aborted"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T05:07:00Z",
+            "End": "2026-10-02T05:07:55Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-05T12:39:27Z",
+            "Severity": 3,
+            "Service": "payment-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-05T12:39:27Z FATAL payment-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-05T12:38:47Z",
+            "Severity": 1,
+            "Service": "payment-service",
+            "Message": "High memory usage detected: 85%",
+            "Text": "2026-10-05T12:38:47Z WARN payment-service High memory usage detected: 85%"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-05T12:38:47Z",
+            "End": "2026-10-05T12:39:27Z"
+          }
+        ]
+      }
+    ],
+    "user-service": [
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-02T12:20:47Z",
+            "Severity": 3,
+            "Service": "user-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-02T12:20:47Z FATAL user-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-02T12:20:47Z",
+            "End": "2026-10-02T12:20:47Z"
+          },
+          {
+            "Start": "2026-10-02T23:41:00Z",
+            "End": "2026-10-02T23:41:00Z"
+          },
+          {
+            "Start": "2026-10-02T00:46:09Z",
+            "End": "2026-10-02T00:46:09Z"
+          },
+          {
+            "Start": "2026-10-03T22:52:16Z",
+            "End": "2026-10-03T22:52:16Z"
+          },
+          {
+            "Start": "2026-10-06T17:10:16Z",
+            "End": "2026-10-06T17:10:16Z"
+          },
+          {
+            "Start": "2026-10-02T23:04:00Z",
+            "End": "2026-10-02T23:04:00Z"
+          },
+          {
+            "Start": "2026-10-01T14:08:18Z",
+            "End": "2026-10-01T14:08:18Z"
+          },
+          {
+            "Start": "2026-10-04T22:54:36Z",
+            "End": "2026-10-04T22:54:36Z"
+          },
+          {
+            "Start": "2026-10-06T00:07:31Z",
+            "End": "2026-10-06T00:07:31Z"
+          },
+          {
+            "Start": "2026-10-05T03:00:55Z",
+            "End": "2026-10-05T03:00:55Z"
+          },
+          {
+            "Start": "2026-10-03T07:20:11Z",
+            "End": "2026-10-03T07:20:11Z"
+          },
+          {
+            "Start": "2026-10-05T01:02:00Z",
+            "End": "2026-10-05T01:02:00Z"
+          },
+          {
+            "Start": "2026-10-02T22:43:47Z",
+            "End": "2026-10-02T22:43:47Z"
+          },
+          {
+            "Start": "2026-10-05T08:28:41Z",
+            "End": "2026-10-05T08:28:41Z"
+          },
+          {
+            "Start": "2026-10-02T22:58:50Z",
+            "End": "2026-10-02T22:58:50Z"
+          },
+          {
+            "Start": "2026-10-05T20:08:10Z",
+            "End": "2026-10-05T20:08:10Z"
+          },
+          {
+            "Start": "2026-10-01T08:45:45Z",
+            "End": "2026-10-01T08:45:45Z"
+          },
+          {
+            "Start": "2026-10-01T03:40:02Z",
+            "End": "2026-10-01T03:40:02Z"
+          },
+          {
+            "Start": "2026-10-02T21:37:00Z",
+            "End": "2026-10-02T21:37:00Z"
+          },
+          {
+            "Start": "2026-10-04T07:54:37Z",
+            "End": "2026-10-04T07:54:37Z"
+          },
+          {
+            "Start": "2026-10-01T06:59:55Z",
+            "End": "2026-10-01T06:59:55Z"
+          },
+          {
+            "Start": "2026-10-02T08:57:33Z",
+            "End": "2026-10-02T08:57:33Z"
+          },
+          {
+            "Start": "2026-10-03T22:27:02Z",
+            "End": "2026-10-03T22:27:02Z"
+          },
+          {
+            "Start": "2026-10-06T15:18:48Z",
+            "End": "2026-10-06T15:18:48Z"
+          },
+          {
+            "Start": "2026-10-06T04:14:23Z",
+            "End": "2026-10-06T04:14:23Z"
+          },
+          {
+            "Start": "2026-10-04T21:23:05Z",
+            "End": "2026-10-04T21:23:05Z"
+          },
+          {
+            "Start": "2026-10-01T02:19:15Z",
+            "End": "2026-10-01T02:19:15Z"
+          },
+          {
+            "Start": "2026-10-02T05:25:02Z",
+            "End": "2026-10-02T05:25:02Z"
+          },
+          {
+            "Start": "2026-10-06T00:48:42Z",
+            "End": "2026-10-06T00:48:42Z"
+          },
+          {
+            "Start": "2026-10-04T16:11:56Z",
+            "End": "2026-10-04T16:11:56Z"
+          },
+          {
+            "Start": "2026-10-01T13:04:22Z",
+            "End": "2026-10-01T13:04:22Z"
+          },
+          {
+            "Start": "2026-10-03T15:26:08Z",
+            "End": "2026-10-03T15:26:08Z"
+          },
+          {
+            "Start": "2026-10-01T03:50:16Z",
+            "End": "2026-10-01T03:50:16Z"
+          },
+          {
+            "Start": "2026-10-05T01:10:43Z",
+            "End": "2026-10-05T01:10:43Z"
+          },
+          {
+            "Start": "2026-10-02T03:20:39Z",
+            "End": "2026-10-02T03:20:39Z"
+          },
+          {
+            "Start": "2026-10-06T11:12:36Z",
+            "End": "2026-10-06T11:12:36Z"
+          },
+          {
+            "Start": "2026-10-03T09:00:03Z",
+            "End": "2026-10-03T09:00:03Z"
+          },
+          {
+            "Start": "2026-10-01T15:37:51Z",
+            "End": "2026-10-01T15:37:51Z"
+          },
+          {
+            "Start": "2026-10-02T08:50:35Z",
+            "End": "2026-10-02T08:50:35Z"
+          },
+          {
+            "Start": "2026-10-06T16:35:19Z",
+            "End": "2026-10-06T16:35:19Z"
+          },
+          {
+            "Start": "2026-10-03T00:31:37Z",
+            "End": "2026-10-03T00:31:37Z"
+          },
+          {
+            "Start": "2026-10-02T02:50:26Z",
+            "End": "2026-10-02T02:50:26Z"
+          },
+          {
+            "Start": "2026-10-06T16:56:40Z",
+            "End": "2026-10-06T16:56:40Z"
+          },
+          {
+            "Start": "2026-10-02T01:55:01Z",
+            "End": "2026-10-02T01:55:01Z"
+          },
+          {
+            "Start": "2026-10-01T15:11:14Z",
+            "End": "2026-10-01T15:11:14Z"
+          },
+          {
+            "Start": "2026-10-05T16:24:21Z",
+            "End": "2026-10-05T16:24:21Z"
+          },
+          {
+            "Start": "2026-10-05T07:26:59Z",
+            "End": "2026-10-05T07:26:59Z"
+          },
+          {
+            "Start": "2026-10-01T16:57:11Z",
+            "End": "2026-10-01T16:57:11Z"
+          },
+          {
+            "Start": "2026-10-03T17:41:58Z",
+            "End": "2026-10-03T17:41:58Z"
+          },
+          {
+            "Start": "2026-10-06T03:22:21Z",
+            "End": "2026-10-06T03:22:21Z"
+          },
+          {
+            "Start": "2026-10-03T06:49:47Z",
+            "End": "2026-10-03T06:49:47Z"
+          },
+          {
+            "Start": "2026-10-01T07:13:30Z",
+            "End": "2026-10-01T07:13:30Z"
+          },
+          {
+            "Start": "2026-10-04T21:03:19Z",
+            "End": "2026-10-04T21:03:19Z"
+          },
+          {
+            "Start": "2026-10-01T04:49:47Z",
+            "End": "2026-10-01T04:49:47Z"
+          },
+          {
+            "Start": "2026-10-01T23:43:33Z",
+            "End": "2026-10-01T23:43:33Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-01T21:15:17Z",
+            "Severity": 2,
+            "Service": "user-service",
+            "Message": "SQL syntax error while executing query: syntax error at end of input",
+            "Text": "2026-10-01T21:15:17Z ERROR user-service SQL syntax error while executing query: syntax error at end of input"
+          },
+          {
+            "Time": "2026-10-01T21:14:38Z",
+            "Severity": 2,
+            "Service": "user-service",
+            "Message": "NullPointerException in controller layer processing request",
+            "Text": "2026-10-01T21:14:38Z ERROR user-service NullPointerException in controller layer processing request"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-01T21:14:38Z",
+            "End": "2026-10-01T21:15:17Z"
+          },
+          {
+            "Start": "2026-10-03T05:45:19Z",
+            "End": "2026-10-03T05:45:58Z"
+          },
+          {
+            "Start": "2026-10-04T05:54:53Z",
+            "End": "2026-10-04T05:55:14Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-01T11:32:14Z",
+            "Severity": 3,
+            "Service": "user-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-01T11:32:14Z FATAL user-service Database connection pool exhausted and crashed system"
+          },
+          {
+            "Time": "2026-10-01T11:31:37Z",
+            "Severity": 1,
+            "Service": "user-service",
+            "Message": "Deprecated API endpoint /api/old/users accessed",
+            "Text": "2026-10-01T11:31:37Z WARN user-service Deprecated API endpoint /api/old/users accessed"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-01T11:31:37Z",
+            "End": "2026-10-01T11:32:14Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-06T12:21:57Z",
+            "Severity": 1,
+            "Service": "user-service",
+            "Message": "Database connection pool reaching threshold (80% utilized)",
+            "Text": "2026-10-06T12:21:57Z WARN user-service Database connection pool reaching threshold (80% utilized)"
+          },
+          {
+            "Time": "2026-10-06T12:21:35Z",
+            "Severity": 3,
+            "Service": "user-service",
+            "Message": "Database connection pool exhausted and crashed system",
+            "Text": "2026-10-06T12:21:35Z FATAL user-service Database connection pool exhausted and crashed system"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-06T12:21:35Z",
+            "End": "2026-10-06T12:21:57Z"
+          }
+        ]
+      },
+      {
+        "Entries": [
+          {
+            "Time": "2026-10-06T01:10:33Z",
+            "Severity": 2,
+            "Service": "user-service",
+            "Message": "Payment gateway returned 502 Bad Gateway",
+            "Text": "2026-10-06T01:10:33Z ERROR user-service Payment gateway returned 502 Bad Gateway"
+          },
+          {
+            "Time": "2026-10-06T01:11:03Z",
+            "Severity": 2,
+            "Service": "user-service",
+            "Message": "NullPointerException in controller layer processing request",
+            "Text": "2026-10-06T01:11:03Z ERROR user-service NullPointerException in controller layer processing request"
+          }
+        ],
+        "TimeWindows": [
+          {
+            "Start": "2026-10-06T01:10:33Z",
+            "End": "2026-10-06T01:11:03Z"
+          }
+        ]
+      }
+    ]
+  }
+}
